@@ -12,13 +12,18 @@
 <body>
 
 	<form action="register" method="post" id="form1">
-		id : <input type="text" name="id" id="id"><a href="#"
-			onclick="duplicated()">중복체크</a> <br> password : <input
-			type="password" name="password" id="pw1"><br> password
-		확인: <input type="password" id="pw2"><br> email: <input
-			type="text" name="email"><br> name : <input type="text"
-			name="name"><br> tel : <input type="text" name="tel"><br>
-
+		id : <input type="text" name="id" id="id"><a href="#" onclick="duplicated()">중복체크</a> 
+		<br> 
+		password : <input type="password" name="password" id="pw1">
+		<br> 
+		password 확인: <input type="password" id="pw2">
+		<br> 
+		email: <input type="text" name="email">
+		<br> 
+		name : <input type="text" name="name">
+		<br> 
+		tel : <input type="text" name="tel">
+		<br>
 	</form>
 	<button onclick="submit1()">등록</button>
 </body>

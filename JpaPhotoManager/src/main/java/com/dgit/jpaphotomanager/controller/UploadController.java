@@ -64,8 +64,7 @@ public class UploadController {
 	}
 
 	@RequestMapping(value = "/multiUploadForm", method = RequestMethod.POST)
-	public String MultiUploadFormResult(Model model, String ids, List<MultipartFile> pic)
-			throws Exception {
+	public String MultiUploadFormResult(Model model, String ids, List<MultipartFile> pic) throws Exception {
 
 		System.out.println("Model : " + model);
 		System.out.println("id : " + ids);
